@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm MD YOUSUF AZAM</h1>
+<h1 align="center">Hi 👋</h1>
 <h3 align="center">A passionate AI developer from India</h3>
 
 - 👨‍💻 All of my projects are available On its way.
