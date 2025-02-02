@@ -1,0 +1,16 @@
+[
+    {
+      "rank": "S RANK",
+      "name": "The Dancer A.K.A CHA HAE IN (차해인)",
+      "description": "Cha Hae In is the Vice-Guild Master of the Hunters Guild and the swordwoman of the main raiding party. She has unique mana detection abilities except for Sung Jin Woo.",
+      "image": "./assets/cha-hae-in.jpg",
+      "background": "linear-gradient(135deg, #ffc300, #ff5733)"
+    },
+    {
+      "rank": "S RANK",
+      "name": "Shadow Monarch A.K.A SUNG JIN WOO (성진우)",
+      "description": "Sung Jin Woo is the protagonist of Solo Leveling, starting as the weakest hunter and becoming the Shadow Monarch with limitless power.",
+      "image": "./assets/sung-jin-woo.jpg",
+      "background": "linear-gradient(135deg, #581845, #900c3f)"
+    }
+  ]
