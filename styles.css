@@ -1,0 +1,87 @@
+/* Basic Reset and Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark Background */
+    color: #ffffff; /* White Text */
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #3498db; /* Neon Highlight Color */
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  .content h1 {
+    font-size: 4em;
+    color: #ffffff;
+  }
+  
+  .content .highlight {
+    color: #3498db; /* Neon Effect */
+  }
+  
+  .content p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    padding: 10px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.2s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #2980b9; /* Hover Effect */
+    transform: scale(1.05); /* Slight scaling effect */
+  }
+  
+  /* Robot Section Styling */
+  .robot-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .robot-model img {
+    width: 80%;
+    max-width: 400px;
+    mix-blend-mode: screen; /* Futuristic Blend Effect */
+    opacity: 0.9;
+  }
