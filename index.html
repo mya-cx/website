@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚠️</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1 class="fade-in">Oops!</h1>
+      <h2 class="bounce">404</h2>
+      <p class="fade-in">Page is currently under maintenance and will guide you back to the homepage after 10 seconds.</p>
+      <a href="/" class="button">Back to home</a>
+    </div>
+    <div class="animation">
+      <img src="astronaut.png" alt="Astronaut" class="astronaut">
+    </div>
+  </div>
+
+  <script>
+    // Auto-redirect to homepage after 10 seconds
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 10000);
+  </script>
+</body>
+</html>
